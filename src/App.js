@@ -53,7 +53,7 @@ function App() {
 
   const row = (color, isDark) => (
     <div style={{padding: '5px'}}>
-      <span style={{width: '200px', textAlign: 'right'}}>{color.t}</span>
+      <span style={{display: 'inline-block', width: '100px', textAlign: 'right'}}>{color.t}</span>
       <span style={colorBlockStyle(color.c, isDark)}>{color.c}</span>
     </div>
   )
@@ -69,7 +69,11 @@ function App() {
 
       {lightens.map(color => row(color))}
 
-      {row(renderBaseColor)}
+      <div style={{textAlign: 'center'}}>
+        <div style={{display: 'inline-block', width: '400px', boxShadow: '0px 3px 3px grey', backgroundColor: '#f0f0f0'}}>
+          {row(renderBaseColor)}
+        </div>
+      </div>
 
       {darkens.map(color => (row(color, true)))}
     </div>
