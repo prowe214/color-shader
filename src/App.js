@@ -17,6 +17,7 @@ function App() {
   const [renderBaseColor, setRenderBaseColor] = useState({t: '----BASE----', c: `#${initialColor}`})
   const [lightens, setLightens] = useState(renderLightens(initialColor))
   const [darkens, setDarkens] = useState(renderDarkens(initialColor))
+  const [error, setError] = useState(false)
 
   const colorBlockStyle = (color, isDark) => ({
     display: 'inline-block',
@@ -33,21 +34,29 @@ function App() {
     fontSize: '16px',
     border: '1px solid grey',
     borderRadius: '5px',
-    marginTop: '40px'
+    marginTop: '10px'
   }
 
 
   const handleChange = (e) => {
-    console.log('input', e.target.value)
     setBaseColor(e.target.value)
-    console.log('basecolor', baseColor)
+  }
+
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      handleCalculate()
+    }
+  }
+
+  const handleCalculate = () => {
     setRenderBaseColor({t: '----BASE----', c: `#${baseColor}`})
-    if (e.target.value.length === 6) {
+    if (baseColor.length === 6) {
       setLightens(renderLightens(baseColor))
       setDarkens(renderDarkens(baseColor))
     } else {
       setLightens([])
       setDarkens([])
+      setError()
     }
   }
 
@@ -61,11 +70,15 @@ function App() {
   console.log('lightens', lightens)
   return (
     <div className="App">
-      <div style={{width: '400px'}}>
+      <div style={{width: '400px', display: 'inline-block', marginTop: '40px'}}>
         <div>Don't add a hash before the hex code</div>
         <div>Hex must be 6 chars</div>
       </div>
-      <input style={inputStyle} onChange={handleChange} value={baseColor} placeholder="Hex Code" />
+      <div>
+        <input style={inputStyle} onChange={handleChange} onKeyDown={handleKeyDown} value={baseColor} placeholder="Hex Code" />
+        <button style={{...inputStyle, marginLeft: '12px', cursor: 'pointer', backgroundColor: '#e0e0e0'}} type="submit" onClick={handleCalculate}>Do It!</button>
+      </div>
+
 
       {lightens.map(color => row(color))}
 
