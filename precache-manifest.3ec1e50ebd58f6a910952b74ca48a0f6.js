@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32cdf72de0d1b2c9157be88edbcece85",
+    "revision": "c5623d385d1f1e6a4293f0f75d30a1f7",
     "url": "/color-shader/index.html"
   },
   {
-    "revision": "4d6df0d105dfed050200",
+    "revision": "3e76177fe0265a013070",
     "url": "/color-shader/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/color-shader/static/js/2.d7132119.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4d6df0d105dfed050200",
-    "url": "/color-shader/static/js/main.319bc06f.chunk.js"
+    "revision": "3e76177fe0265a013070",
+    "url": "/color-shader/static/js/main.e50cab2d.chunk.js"
   },
   {
     "revision": "7e5b606200121831ce28",

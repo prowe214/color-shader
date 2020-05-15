@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/color-shader/static/css/main.5f361e03.chunk.css",
-    "main.js": "/color-shader/static/js/main.319bc06f.chunk.js",
-    "main.js.map": "/color-shader/static/js/main.319bc06f.chunk.js.map",
+    "main.js": "/color-shader/static/js/main.e50cab2d.chunk.js",
+    "main.js.map": "/color-shader/static/js/main.e50cab2d.chunk.js.map",
     "runtime-main.js": "/color-shader/static/js/runtime-main.656eb1fa.js",
     "runtime-main.js.map": "/color-shader/static/js/runtime-main.656eb1fa.js.map",
     "static/js/2.d7132119.chunk.js": "/color-shader/static/js/2.d7132119.chunk.js",
     "static/js/2.d7132119.chunk.js.map": "/color-shader/static/js/2.d7132119.chunk.js.map",
     "index.html": "/color-shader/index.html",
-    "precache-manifest.62f6a10051b02f4483076cbb5a9fdad8.js": "/color-shader/precache-manifest.62f6a10051b02f4483076cbb5a9fdad8.js",
+    "precache-manifest.3ec1e50ebd58f6a910952b74ca48a0f6.js": "/color-shader/precache-manifest.3ec1e50ebd58f6a910952b74ca48a0f6.js",
     "service-worker.js": "/color-shader/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/color-shader/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.d7132119.chunk.js.LICENSE.txt": "/color-shader/static/js/2.d7132119.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.656eb1fa.js",
     "static/js/2.d7132119.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.319bc06f.chunk.js"
+    "static/js/main.e50cab2d.chunk.js"
   ]
 }
