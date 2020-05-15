@@ -1,3 +1,9 @@
+# OVERVIEW
+
+This basic color shader makes it simple to calculate shades of a single color and get their hex codes
+
+====
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
