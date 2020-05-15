@@ -57,7 +57,7 @@ function App() {
       setDarkens(renderDarkens(baseColor))
       setError('')
     } else {
-      setError('leave off the hash')
+      setError('yo, for real, leave off the hash')
     }
   }
 
