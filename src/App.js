@@ -50,13 +50,14 @@ function App() {
 
   const handleCalculate = () => {
     setRenderBaseColor({t: '----BASE----', c: `#${baseColor}`})
-    if (baseColor.length === 6) {
+    const hasHash = baseColor.includes('#')
+
+    if (!hasHash) {
       setLightens(renderLightens(baseColor))
       setDarkens(renderDarkens(baseColor))
+      setError('')
     } else {
-      setLightens([])
-      setDarkens([])
-      setError()
+      setError('leave off the hash')
     }
   }
 
@@ -67,16 +68,15 @@ function App() {
     </div>
   )
 
-  console.log('lightens', lightens)
   return (
     <div className="App">
       <div style={{width: '400px', display: 'inline-block', marginTop: '40px'}}>
         <div>Don't add a hash before the hex code</div>
-        <div>Hex must be 6 chars</div>
       </div>
-      <div>
+      <div style={{marginBottom: '16px'}}>
         <input style={inputStyle} onChange={handleChange} onKeyDown={handleKeyDown} value={baseColor} placeholder="Hex Code" />
         <button style={{...inputStyle, marginLeft: '12px', cursor: 'pointer', backgroundColor: '#e0e0e0'}} type="submit" onClick={handleCalculate}>Do It!</button>
+        {error ? <div style={{color: 'red', fontWeight: 'bold'}}>{error}</div> : null}
       </div>
 
 
