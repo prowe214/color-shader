@@ -7,7 +7,7 @@ const list = [1,2,3,4,5,6,7,8,9]
 function App() {
   const initialColor = 'C63527'
   const renderLightens = (color) => list.map(num => {
-    return {t: `lighten ${num}0% `, c: Color('#fff').mix(Color(`#${color}`), num/10).hex()}
+    return {t: `lighten ${10-num}0% `, c: Color('#fff').mix(Color(`#${color}`), num/10).hex()}
   })
   const renderDarkens = (color) => list.map(num => {
     return {t: `darken ${num}0% `, c: Color(`#${color}`).darken(num/10).hex()}
