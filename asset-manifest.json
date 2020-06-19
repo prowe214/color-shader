@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/color-shader/static/css/main.5f361e03.chunk.css",
-    "main.js": "/color-shader/static/js/main.0ea2486d.chunk.js",
-    "main.js.map": "/color-shader/static/js/main.0ea2486d.chunk.js.map",
+    "main.css": "/color-shader/static/css/main.f61d19a6.chunk.css",
+    "main.js": "/color-shader/static/js/main.bae452f4.chunk.js",
+    "main.js.map": "/color-shader/static/js/main.bae452f4.chunk.js.map",
     "runtime-main.js": "/color-shader/static/js/runtime-main.656eb1fa.js",
     "runtime-main.js.map": "/color-shader/static/js/runtime-main.656eb1fa.js.map",
-    "static/js/2.d7132119.chunk.js": "/color-shader/static/js/2.d7132119.chunk.js",
-    "static/js/2.d7132119.chunk.js.map": "/color-shader/static/js/2.d7132119.chunk.js.map",
+    "static/js/2.ec031d94.chunk.js": "/color-shader/static/js/2.ec031d94.chunk.js",
+    "static/js/2.ec031d94.chunk.js.map": "/color-shader/static/js/2.ec031d94.chunk.js.map",
     "index.html": "/color-shader/index.html",
-    "precache-manifest.fbcea021bd600771d8bc2c070f7c34e4.js": "/color-shader/precache-manifest.fbcea021bd600771d8bc2c070f7c34e4.js",
+    "precache-manifest.6c96787172f950e31f58b23c834bd88a.js": "/color-shader/precache-manifest.6c96787172f950e31f58b23c834bd88a.js",
     "service-worker.js": "/color-shader/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/color-shader/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.d7132119.chunk.js.LICENSE.txt": "/color-shader/static/js/2.d7132119.chunk.js.LICENSE.txt"
+    "static/css/main.f61d19a6.chunk.css.map": "/color-shader/static/css/main.f61d19a6.chunk.css.map",
+    "static/js/2.ec031d94.chunk.js.LICENSE.txt": "/color-shader/static/js/2.ec031d94.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.656eb1fa.js",
-    "static/js/2.d7132119.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.0ea2486d.chunk.js"
+    "static/js/2.ec031d94.chunk.js",
+    "static/css/main.f61d19a6.chunk.css",
+    "static/js/main.bae452f4.chunk.js"
   ]
 }
