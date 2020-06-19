@@ -103,6 +103,7 @@ function App() {
         {error ? <div style={{color: 'red', fontWeight: 'bold'}}>{error}</div> : null}
       </div>
       <div style={{marginBottom: '20px'}}>Click any color to copy its value to the clipboard</div>
+      <div style={{marginBottom: '20px', backgroundColor: 'lightyellow', padding: '5px'}}>Enjoying this tool? <a href="https://www.buymeacoffee.com/prowe">Buy me a beer!</a></div>
 
 
       {lightens.map(color => ColorRow(color))}

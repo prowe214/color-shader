@@ -39,3 +39,8 @@
     border: 3px solid grey;
   }
 }
+
+a {
+  font-weight: bold;
+  color: grey;
+}
